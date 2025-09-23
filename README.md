@@ -16,7 +16,6 @@ Instead of only designing the schema, I focused on **INSERT, UPDATE, and DELETE 
 ---
 
 ## 🛠️ Tools Used
-- [DB Fiddle](https://www.db-fiddle.com/) (for testing queries online)  
 - SQLiteStudio / MySQL Workbench (for running scripts locally)  
 
 ---
@@ -41,3 +40,4 @@ Here’s how everything is connected:
    ```sql
    SELECT * FROM Books;
    SELECT * FROM Loans WHERE return_date IS NULL;
+
