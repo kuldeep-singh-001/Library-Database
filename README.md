@@ -26,7 +26,7 @@ Instead of only designing the schema, I focused on **INSERT, UPDATE, and DELETE 
 ## 📊 ER Diagram
 Here’s how everything is connected:
 
-![ER Diagram](docs/er-diagram.png)
+![ER Diagram](docs/er_diagram.png)
 
 ---
 
@@ -40,4 +40,5 @@ Here’s how everything is connected:
    ```sql
    SELECT * FROM Books;
    SELECT * FROM Loans WHERE return_date IS NULL;
+
 
