@@ -1,19 +1,23 @@
 # 📚 Library Database – Data Insertion, Updates & Deletions
 
-## 👋 Introduction
-This project is part of my database practice work.  
-Here, I created and manipulated data for a **Library Management System**.  
-Instead of only designing the schema, I focused on **INSERT, UPDATE, and DELETE queries**, along with handling **NULL values**.  
+## 📌 Introduction
+This project is designed to practice **SQL data manipulation** using a **Library Management System** dataset.  
+We focus on inserting, updating, and deleting records, while handling **NULL values** and defaults.
+
+We practice:
+- Adding records using `INSERT`  
+- Handling missing values with `NULL` or defaults  
+- Modifying records with `UPDATE ... WHERE`  
+- Removing records safely using `DELETE ... WHERE`  
 
 ---
 
-## 🎯 Objectives
-- Add records into tables using `INSERT`.  
-- Handle **missing values** with `NULL` or defaults.  
-- Modify records using `UPDATE ... WHERE`.  
-- Remove records safely using `DELETE ... WHERE`.  
+## 🚀 How to Run
+1. Open **MySQL Workbench** (or SQLite Studio).  
+2. Run `schema.sql` to create the database and tables.   
+3. Run `data.sql` to insert sample data.  
+4. Run `queries.sql` to execute update and delete queries.
 
----
 
 ## 🛠️ Tools Used
 - SQLiteStudio / MySQL Workbench (for running scripts locally)  
@@ -29,16 +33,11 @@ Here’s how everything is connected:
 ![ER Diagram](docs/er_diagram.png)
 
 ---
-
-## 🚀 How to Run
-1. Make sure you already have a Library schema created (`schema.sql`).  
-   Example entities: `Members`, `Books`, `Authors`, `Loans`, `Payments`.  
-2. Run the script:
-   ```sql
-   SOURCE data.sql;
-3. Test it with queries like:
-   ```sql
-   SELECT * FROM Books;
-   SELECT * FROM Loans WHERE return_date IS NULL;
+##Outcomes:-
+After completing this project, you’ll be able to:
+-Insert, update, and delete records effectively
+-Handle NULL values and defaults
+-Maintain data integrity with foreign key relationships
+-Write safe and efficient SQL data manipulation queries
 
 
