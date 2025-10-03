@@ -20,7 +20,7 @@ We practice:
 
 
 ## 🛠️ Tools Used
-- SQLiteStudio / MySQL Workbench (for running scripts locally)  
+- MySQL Workbench / SQLiteStudio 
 
 ---
 
@@ -39,5 +39,6 @@ After completing this project, you’ll be able to:
 -Handle NULL values and defaults
 -Maintain data integrity with foreign key relationships
 -Write safe and efficient SQL data manipulation queries
+
 
 
